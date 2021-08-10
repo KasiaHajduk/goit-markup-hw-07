@@ -1,0 +1,22 @@
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  padding: 10px 42px;
+}
+
+
+.hero .modal-btn {
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+
+.lorem .container {
+  display: flex;
+}
