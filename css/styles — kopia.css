@@ -96,8 +96,7 @@ img {
   margin-right: auto;
 }
 
-.navigation-logo,
-.navigation-logo-footer {
+.navigation__logo{
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
