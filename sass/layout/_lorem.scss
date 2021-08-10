@@ -1,19 +1,21 @@
-
 .lorem__list {
   display: flex;
   justify-content: space-between;
 }
-.lorem__item:not(:last-child) {
-  margin-right: 30px;
-}
 
-.descryption {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: #757575;
+.lorem__item{
+  &:not(:last-child) {
+  margin-right: 30px;
+  }
+}
+.lorem__svg {
   width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .antenna {
@@ -31,14 +33,4 @@
 .astronaut {
   width: 55px;
   height: 60px;
-}
-
-.lorem__svg {
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
 }

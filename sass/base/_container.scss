@@ -28,6 +28,10 @@
     flex-grow: 1;
     }
 
+    .lorem & {
+      display: flex;
+    }
+
     .footer &{
     padding: 60px 0px;
     display: flex;
