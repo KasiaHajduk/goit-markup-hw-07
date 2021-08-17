@@ -1,24 +1,19 @@
+@import "./utils/variables";
 @import "./utils/visually-hidden";
 
 @import "./base/common";
 @import "./base/container";
 @import "./base/section";
 
-@import "./components/button";
-@import "./components/modal-button";
+@import "./components/menu-button";
+@import "./components/modal-close";
 @import "./components/description";
 @import "./components/undertitle";
-// @import "./components/secondary-title";
 @import "./components/social-list";
-@import "./components/footer-social-list";
-
 @import "./components/title";
 @import "./components/undertitle";
 @import "./components/underundertitle";
 @import "./components/backdrop";
-// @import "./components/modal";
-// @import "./components/img-services";
-
 
 @import "./layout/clients";
 @import "./layout/footer";
@@ -28,4 +23,3 @@
 @import "./layout/lorem";
 @import "./layout/portfolio";
 @import "./layout/team";
-

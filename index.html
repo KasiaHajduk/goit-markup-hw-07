@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <link rel="stylesheet" href="./css/main.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -399,6 +399,7 @@
                 </svg>
               </a>
             </li>
+
           </ul>
         </div>
       </section>
@@ -408,16 +409,16 @@
       <div class="container">
         <div class="footer__left-side">
           <a class="navigation__logo link" href="index.html">Web<span style="color: #ffffff">Studio</span></a>
-          <ul class="footer__list list">
-            <li class="footer__contact">
-              <address class="footer__address link">
+          <ul class="navigation-footer list">
+            <li class="address__item">
+              <address class="address__link link">
                 m. Warszawa, Aleje Jerozolimskie 21
               </address>
             </li>
-            <li class="footer__contact">
+            <li class="address__item">
               <a class="footer__link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="footer__contact">
+            <li class="address__item">
               <a class="footer__link link" href="tel:+48111111111">+48 111 111 111</a>
             </li>
           </ul>
@@ -425,31 +426,31 @@
 
         <div class="footer__center_side">
           <p class="footer__title">dołącz do nas</p>
-          <ul class="footer-social-list list">
-            <li class="footer-social-list__item link">
-              <a class="footer-social-list__link" href="#">
-                <svg class="footer-social-list__icon">
+          <ul class="footer__social-list list">
+            <li class="footer__social-list-item link">
+              <a class="footer__social-list__link" href="#">
+                <svg class="footer__social-icon">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-list__item link">
-              <a class="footer-social-list__link" href="#">
-                <svg class="footer-social-list__icon">
+            <li class="footer__social-list-item link">
+              <a class="footer__social-list__link" href="#">
+                <svg class="footer__social-icon">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-list__item link">
-              <a class="footer-social-list__link" href="#">
-                <svg class="footer-social-list__icon">
+            <li class="footer__social-list-item link">
+              <a class="footer__social-list__link" href="#">
+                <svg class="footer__social-icon">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social-list__item link">
-              <a class="footer-social-list__link" href="#">
-                <svg class="footer-social-list__icon">
+            <li class="footer__social-list-item link">
+              <a class="footer__social-list__link" href="#">
+                <svg class="footer__social-icon">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -474,16 +475,7 @@
       </div>
     </footer>
 
-    <!--przycisk zamknięcia jako button-->
-    <!-- <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="close-btn" data-modal-close>X</button>
-      </div>
-    </div> -->
-
-    <!--przycisk zamknięcia jako svg-->
     <div class="backdrop is-hidden" data-modal>
-      <!-- <div class="backdrop" data-modal> -->
       <div class="modal">
         <div class="close-btn-svg" data-modal-close>
           <svg class="svg-icon">
@@ -540,7 +532,7 @@
                 <label for="user-policy" class="modal__form-policy-text"> 
                     Oświadczam, iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności.</a>
                 </label>
-                <button type="submit" class="modal__form-btn">
+                <button type="submit" class="modal__form-btn" data-modal-close>
                   Wyślij
                 </button>
            
