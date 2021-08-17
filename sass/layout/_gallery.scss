@@ -1,3 +1,6 @@
+.gallery {
+  padding-top: 0px;
+}
 
 .gallery__list {
   display: flex;
@@ -18,7 +21,7 @@
   height: 294px;
 }
 
-.gallery__descryption {
+.gallery__description {
   position: relative;
   top: 224px;
   font-weight: 700;

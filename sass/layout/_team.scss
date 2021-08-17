@@ -1,5 +1,5 @@
 .team {
-  width: 1600px;
+  // width: 1600px;
   background-color: #f5f4fa;
   margin: 0 auto;
 }
@@ -25,6 +25,7 @@
 
 .team__card-wrapper {
   background-color: #ffffff;
+  padding-bottom: 30px;
 }
 
 .team__name {
@@ -41,6 +42,6 @@
   line-height: 1.187;
   letter-spacing: 0.03em;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   text-align: center;
 }

@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
-    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
-    <link rel="stylesheet" href="./css/main.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/main.min.css"/>
   </head>
 
   <body>
@@ -79,7 +78,7 @@
                   </svg>
                 </div>
                 <h3 class="third-header">LOREM IPSUM</h3>
-                <p class="descryption">
+                <p class="description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                   vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
@@ -93,7 +92,7 @@
                   </svg>
                 </div>
                 <h3 class="third-header">LOREM IPSUM</h3>
-                <p class="descryption">
+                <p class="description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                   vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
@@ -107,7 +106,7 @@
                   </svg>
                 </div>
                 <h3 class="third-header">LOREM IPSUM</h3>
-                <p class="descryption">
+                <p class="description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                   vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
@@ -121,7 +120,7 @@
                   </svg>
                 </div>
                 <h3 class="third-header">LOREM IPSUM</h3>
-                <p class="descryption">
+                <p class="description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
                   vel arcu sem. Sed non sodales dui. Interdum et malesuada
                 </p>
@@ -144,7 +143,7 @@
                 alt="portfolio-1"
                 />
               </div>
-              <div class="gallery__descryption">
+              <div class="gallery__description">
                 aplikacje komputerowe
               </div>
             </li>
@@ -156,7 +155,7 @@
                 alt="portfolio-2"
                 />
               </div>
-              <div class="gallery__descryption">
+              <div class="gallery__description">
                 apikacje mobilne
               </div>
             </li>
@@ -168,7 +167,7 @@
                 alt="portfolio-3"
                 />
               </div>
-              <div class="gallery__descryption">
+              <div class="gallery__description">
                 rozwiązania graficzne
               </div>
             </li>
@@ -408,7 +407,7 @@
     <footer class="footer ">
       <div class="container">
         <div class="footer__left-side">
-          <a class="navigation__logo link" href="index.html">Web<span style="color: #ffffff">Studio</span></a>
+          <img class="footer__logo" src="./images/logo-dark.png" alt="logo" >
           <ul class="navigation-footer list">
             <li class="address__item">
               <address class="address__link link">
@@ -461,8 +460,8 @@
         <div class="footer__right-side">
           <p class="footer__title">zapisz się do newslettera</p>
           <form action="#" class="footer__form">
-            <label for="" class="footer__form-field">
-              <input type="email" name="user_email" placeholder="E-mail" class="footer__form-input">
+            <label for="footer-email" class="footer__form-field">
+              <input type="email" name="user_email" id="footer-email" placeholder="E-mail" class="footer__form-input">
             </label>
             <button type="submit" class="footer__form-btn">
                   <span>Zapisz się</span>
@@ -486,10 +485,10 @@
            Zostaw swoje dane w formularzu poniżej
         </h2> 
            <form action="#" class="modal__form">
-               <label for="" class="modal__form-field">
+               <label for="modal-name" class="modal__form-field">
                     Imie
                     <span class="modal__form-input-wrapper">
-                        <input type="text" name="user_name" class="modal__form-input">
+                        <input type="text" name="user-name" id="modal-name"" class="modal__form-input">
                         <span class="modal__form-icon">
                           <svg class="modal__form-icon-item">
                             <use href="./images/icons.svg#icon-person"></use>
@@ -498,10 +497,10 @@
                     </span>
                 </label>
     
-                <label for="" class="modal__form-field">
+                <label for="modal-tel" class="modal__form-field">
                     Telefon
                     <span class="modal__form-input-wrapper">
-                        <input type="tel" name="user_tel" class="modal__form-input">
+                        <input type="tel" name="user-tel" id="modal-tel" class="modal__form-input">
                         <span class="modal__form-icon">
                           <svg class="modal__form-icon-item">
                             <use href="./images/icons.svg#icon-phone"></use>
@@ -510,10 +509,10 @@
                     </span>
                 </label>
                 
-                <label for="" class="modal__form-field">
+                <label for="modal-email" class="modal__form-field">
                     Email
                     <span class="modal__form-input-wrapper">
-                        <input type="email" name="user_email" class="modal__form-input">
+                        <input type="email" name="user-email" id="modal-email" class="modal__form-input">
                         <span class="modal__form-icon">
                          <svg class="modal__form-icon-item">
                             <use href="./images/icons.svg#icon-email"></use>
@@ -522,9 +521,9 @@
                     </span>
                 </label>
 
-                <label class="modal__form-field">
+                <label for="modal-message" class="modal__form-field">
                     Komentarz
-                    <textarea class="modal__form-message" name="user_message" placeholder="Wprowadź tekst"></textarea>
+                    <textarea class="modal__form-message" name="user_message" id="modal-message" placeholder="Wprowadź tekst"></textarea>
                 </label>
                 
                 <input id="user-policy" type="checkbox" name="user_policy" value="accept_policy"

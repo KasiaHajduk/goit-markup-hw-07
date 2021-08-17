@@ -12,8 +12,6 @@
     }
 
     .hero &{
-    height: 600px;
-    width: 1600px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -26,6 +24,7 @@
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
+    padding: 200px 452px;
     }
 
     .lorem & {
