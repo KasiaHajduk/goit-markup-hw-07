@@ -1,16 +1,6 @@
 .team {
   background-color: #f5f4fa;
-  margin: 0 auto;
-}
-
-.team__header {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.166;
-  letter-spacing: 0.03em;
-  color: #212121;
-  text-align: center;
-  padding-bottom: 50px;
+  // margin: 0 auto;
 }
 
 .team__list {
@@ -18,7 +8,7 @@
   justify-content: space-between;
 }
 
-.team__card {
+.team-card {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -27,11 +17,11 @@
     }
 }
 
-.team__card-wrapper {
+.team-card__wrapper {
   background-color: #ffffff;
 }
 
-.team__name {
+.team-card__name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.171;
@@ -41,7 +31,7 @@
   color: #212121;
 }
 
-.team__job-title {
+.team-card__job-title {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.171;

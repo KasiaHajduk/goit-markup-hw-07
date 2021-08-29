@@ -2,29 +2,19 @@
   padding-top: 0;
 }
 
-.gallery__header {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.166;
-  letter-spacing: 0.03em;
-  color: #212121;
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 .gallery__list {
   display: flex;
   justify-content: space-between;
-  /* gap: 30px; */
+  // gap: 30px;
 }
 
-.gallery__card {
-  width: 370px;
-  height: 294px;
+.gallery-card {
+  // width: 370px;
+  // height: 294px;
   position: relative;
 }
 
-.gallery__description {
+.gallery-card__description {
   position: absolute;
   width: 100%;
   bottom: 0px;

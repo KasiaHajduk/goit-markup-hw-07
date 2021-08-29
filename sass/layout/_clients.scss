@@ -1,15 +1,10 @@
-.clients__logo {
-  width: 106px;
-  height: 60px;
-}
-
-.clients__list {
+.clients-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.clients__link {
+.clients-list__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -19,9 +14,9 @@
   align-items: center;
   justify-content: center;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:focus,
-  &:hover {
-    fill: var(--main-color);
-    border: 1px solid var(--main-color);
-  }
+    &:focus,
+    &:hover {
+      fill: var(--main-color);
+      border: 1px solid var(--main-color);
+    }
 }

@@ -1,5 +1,5 @@
 .footer {
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
   background-color: #2f303a;
 }
@@ -8,15 +8,10 @@
   margin-right: 70px;
 }
 
-.footer__logo {
-  width: 145px;
-  height: 31px;
-}
-
-.navigation-footer {
+.navigation__footer {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .address__item {
@@ -24,8 +19,8 @@
 }
 
 .footer__link {
-  font-size: 14px;
   font-weight: 400;
+  font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #ffffff99;
@@ -57,7 +52,7 @@
 }
 
 .footer__title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -66,51 +61,18 @@
   margin-bottom: 20px;
 }
 
-.footer__social-list {
-  display: flex;
-  /* align-items: center;
-  justify-content: space-between; */
-  /* padding-top: 20px; */
-}
-
-.footer__social-list__link {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  background-color: #ffffff1a;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  fill: #ffffff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:focus,
-  &:hover {
-    fill: #ffffff;
-    background-color: var(--main-color);
-  }
-}
-
-.footer__social-list-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.footer__social-icon {
-  width: 20px;
-  height: 20px;
-}
 
 .footer__right-side {
   height: 86px;
   margin-left: 78px;
 }
 
-.footer__form {
+.footer-form {
   display: flex;
 }
 
-.footer__form-input {
-  width: 358px;
-  height: 50px;
+.footer-form__input {
+    width: 358px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
@@ -125,30 +87,29 @@
   }
 }
 
-.footer__form-btn {
+.footer-form__btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: var(--main-color);
   border: 1px solid var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
   padding-left: 42px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 28px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: #fff;
 }
 
-.footer__send-icon {
-  width: 24px;
-  height: 24px;
-  fill: #ffffff;
+.footer-form__send-icon {
+  fill: #fff;
   margin-left: 24px;
+  margin-right: 24px;
 }
