@@ -8,5 +8,12 @@
   border-radius: 4px;
   align-items: center;
   padding: 10px 42px;
+  border-style: none;
+  .hero & {
+    align-items: center;
+    margin-top: 30px;
+  }
 }
+
+
 

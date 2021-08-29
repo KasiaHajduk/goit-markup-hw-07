@@ -4,6 +4,7 @@
   justify-content: space-between;
   margin-right: 32px;
   margin-left: 32px;
+  padding-bottom: 30px;
 }
 
 .social-list__link {
@@ -18,12 +19,7 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:focus,
     &:hover {
-    fill: #ffffff;
-    background-color: var(--main-color);
-  }
-}
+      fill: #ffffff;
+      background-color: var(--main-color);
+    }
 
-.social-list__icon {
-  width: 20px;
-  height: 20px;
-}

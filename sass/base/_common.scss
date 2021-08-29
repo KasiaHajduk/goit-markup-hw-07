@@ -1,3 +1,10 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #2196f3;
+  --third-color: #ffffff;
+}
+
 body {
   font-family: var(--main-font);
 }
@@ -30,7 +37,6 @@ img {
 .list {
   list-style: none;
 }
-
 .link {
   text-decoration: none;
 }

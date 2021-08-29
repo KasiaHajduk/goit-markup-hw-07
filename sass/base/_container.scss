@@ -11,20 +11,13 @@
       padding-bottom: 0px;
     }
 
-    .hero &{
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/hero.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #2f303a66;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-grow: 1;
-    padding: 200px 452px;
+
+    .hero & {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-grow: 1;
+      padding: 200px 452px;
     }
 
     .lorem & {
