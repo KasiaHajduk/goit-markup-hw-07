@@ -1,17 +1,36 @@
-.lorem__list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.lorem__item{
-  &:not(:last-child) {
-  margin-right: 30px;
+.lorem{
+  &__list {
+    display: flex;
+    justify-content: space-between;
   }
-}
+  
+  &__item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
 
-.lorem__svg {
-  padding: 25px 100px;
-  background-color: #f5f4fa;
-  display: flex;
-  margin-bottom: 30px;
+  &__svg {
+    padding: 25px 100px;
+    background-color: #f5f4fa;
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  &__header {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
 }

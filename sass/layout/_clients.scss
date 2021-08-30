@@ -2,21 +2,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
 
-.clients-list__link {
-  display: flex;
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  fill: #afb1b8;
-  border-radius: 4px;
-  align-items: center;
-  justify-content: center;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    fill: #afb1b8;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:focus,
     &:hover {
       fill: var(--main-color);
       border: 1px solid var(--main-color);
     }
+  }
 }

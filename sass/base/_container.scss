@@ -1,5 +1,5 @@
 .container {
-  width: 1200px;
+  max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
   align-items: center;
@@ -28,10 +28,10 @@
       display: flex;
     }
 
-    .buttons-menu &{
-      padding-top: 94px;
-      margin-bottom: 50px;
-    }
+    // .buttons-menu &{
+    //   padding-top: 94px;
+    //   margin-bottom: 50px;
+    // }
  
     .portfolio &{
       padding-bottom: 94px;

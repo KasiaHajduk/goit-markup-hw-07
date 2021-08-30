@@ -1,8 +1,7 @@
 .footer-social-list {
   display: flex;
-}
 
-.footer-social-list__link {
+  &__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -17,8 +16,9 @@
       fill: #ffffff;
       background-color: var(--main-color);
     }
-}
+  }
 
-.footer-social-list__item:not(:last-child) {
-  margin-right: 10px;
+  &__item:not(:last-child) {
+    margin-right: 10px;
+  }
 }

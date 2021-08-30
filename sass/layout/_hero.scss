@@ -7,9 +7,28 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #2f303a66;
-    & .modal-btn {
-        align-items: center;
-        margin-top: 30px;
-    }
-}
 
+  &__header {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.363;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  &__modal-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: var(--main-color);
+    border-radius: 4px;
+    align-items: center;
+    padding: 10px 42px;
+    border-style: none;
+    align-items: center;
+    margin-top: 30px;
+  }
+}
