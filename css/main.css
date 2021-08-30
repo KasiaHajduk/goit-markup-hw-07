@@ -704,6 +704,8 @@ img {
 .portfolio-card__top-section {
   position: relative;
   overflow: hidden;
+  width: 368px;
+  height: 280px;
 }
 .portfolio-card__overlay {
   position: absolute;
