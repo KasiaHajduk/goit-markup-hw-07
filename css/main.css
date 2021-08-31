@@ -558,11 +558,11 @@ img {
   color: var(--main-color);
 }
 
-.navigation__logo-dark {
+.navigation__logo--dark {
   color: #000000;
 }
 
-.navigation__logo-light {
+.navigation__logo--light {
   color: #ffffff;
 }
 
